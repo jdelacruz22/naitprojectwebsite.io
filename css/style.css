@@ -1,0 +1,1319 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #05090e;
+}
+
+.above-black-bar{
+    background-color: #252e39;
+}
+
+.black-bar-top{
+    
+    padding: 20px;
+    padding-left: 0;
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    height: 80px;
+}
+
+
+
+.black-bar-top h2{
+    color: #fff;
+    
+    font-size: 14px;
+    line-height: 34px;
+    
+    max-width: 100%;
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: 0;
+    padding-right: 15px;
+}
+
+.provide-button{
+    display: inline-block;
+    line-height: 1;
+    padding: 10px 15px;
+    border-radius: 3px;
+    background: #00a0df;
+    border: 2px solid #0090c9;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: normal;
+    height: 33px;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: Arial,sans-serif;
+    -webkit-appearance: none;
+    
+}
+
+.provide-button:hover{
+
+    background: #00abee;
+
+}
+
+/*
+
+    Header with Nait logo
+
+
+*/
+
+.logo-bar-top{
+    background: #002d74 url(../img/starburst-bg.jpg) center center no-repeat;
+    border-bottom: 3px solid #002d74;
+    color: #fff;
+    position: relative;
+    padding: 20px 0;
+    z-index: 310;
+    
+}
+
+.logo-image{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.logo-image img{
+    width: 230px;
+}
+
+.nav-right{
+    float: right;
+    margin-top: 10px;
+    position: relative;
+}
+
+.nav-right li{
+    float: left;
+    list-style: none;
+    margin: 0 0 0 25px;
+    position: relative;
+    z-index: 350;
+}
+
+.nav-right li a{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 34px;
+    margin-left: 0;
+}
+
+.nav-right li a:hover{
+    color: #0073d1;
+}
+
+.log-in-button{
+    width: 100px;
+    background-color: rgb(0, 160, 223);
+    border-radius: 3px;
+    text-align: center;
+}
+
+.fa-search{
+    width: 34px;
+    height: 34px;
+    font-size: 32px;
+}
+
+.log-in-button:hover{
+    background-color: rgb(0, 173, 241);
+}
+
+
+/*
+    The mini navigation below the nait logo
+*/
+
+.mini-nav-top{
+    background: #f5f7fa;
+    border-bottom: 1px solid #dfe2e8;
+    position: relative;
+}
+
+.individual-nav{
+    width: 1400px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    height: 48px;
+}
+
+.individual-nav ul li{
+    float: left;
+    
+    font-size: 16px;
+    font-family:'News Cycle', sans-serif;;
+    margin: 0;
+    border-left: 1px solid #d7d7d7;
+    list-style: none;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+.individual-nav ul li a{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+    text-decoration: none;
+   
+}
+
+.individual-nav ul li:hover{
+    box-shadow: 10px 0px 60px rgba(0,0,0,0.3);
+}
+
+
+
+/*
+    Title Part
+
+*/
+
+.game-programming-title{
+    width: 100vw;
+    font-family:'News Cycle', sans-serif;;
+}
+
+.mini-tool-bar-ontop-title{
+    margin-bottom: 30px;
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.container-for-left-right-blue-bar{
+    display: flex;
+}
+
+.right-side-blue-bar{
+    width: 400px;
+    text-align: center;
+    height: 100px;
+}
+
+.btn-title{
+    background-color: #2777e0;
+    margin-left:120px;
+    margin-right:120px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.btn-title:hover{
+    background-color: #256cc9;
+}
+
+.right-side-blue-bar span{
+    text-decoration: underline;
+    color: #1aaae2;
+    cursor:pointer;
+}
+
+.start-date{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float:left;
+    
+}
+
+
+
+.start-date p{
+    font-size: 15px;
+    height: 20px;
+    padding-top: 20px;
+    margin-right: 30px;
+}
+
+.start-date h3{
+    font-size: 15px;
+    background-color: #234dd6;
+    border-radius: 3px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.start-date h3:hover{
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.5);
+    background-color: #254ac2;
+}
+
+.game-programming-title h1,
+.game-programming-title h2{
+    font-family: industry, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 1000px;
+}
+
+.left-side-blue-bar h1{
+    font-size: 40px;
+    
+    letter-spacing: -1px;
+    word-spacing: 5px;
+    
+}
+
+.container-for-title{
+    width: 1400px;
+    margin: 0 auto;
+    
+}
+
+.mini-tool-bar-ontop-title ul{
+    display: flex;
+}
+
+
+
+
+.blue-courses-bar{
+    width: 100vw;
+    background-color: rgb(245, 247, 250);
+}
+
+.container-for-blue-bar{
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    user-select: none;
+    
+}
+
+.courses-blue,
+.random-bow-change{
+    width: 22%;
+    margin-right: 5%;
+    line-height: 5;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 0px 30px -10px rgba(0,0,0,0.3);
+    border-bottom: 5px solid rgb(106, 62, 152);
+    color: rgb(46, 46, 46);
+    border-radius: 3px;
+    
+}
+
+.last-box-blue-bar{
+    margin-right: 0;
+}
+
+.courses-blue:hover,
+.random-bow-change:hover{
+    background-color: rgb(197, 197, 197);
+}
+
+/*
+    Empty BOX
+*/
+
+.box{
+    width: 960px;
+    height: 600px;
+    margin: 10px auto;
+    background-color: #f3f3f3;
+    box-shadow: 10px 0px 80px rgba(0,0,0,0.5);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*
+
+    Four Colored Boxes
+
+*/
+
+.four-color-boxes-container{
+    Width: 100vw;
+    padding: 50px 0px;
+}
+
+.outside-container-colored{
+    width: 1400px;
+    margin: 0px auto;
+    display: flex;
+    cursor: pointer;
+}
+
+.colored-box{
+    width: 312px;
+    
+    text-align: center;
+    background-color: rgb(235, 238, 244);
+    padding: 15px;
+    line-height: 1;
+    border-bottom: solid 5px;
+}
+
+.colored-box h4{
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.colored-box p{
+    font-size: 14px;
+    color: #00a0df;
+    line-height: 1.5;
+    
+}
+
+.colored-box:hover{
+    background-color: rgb(218, 220, 224);
+}
+
+.first-box,
+.second-box,
+.third-box{
+    margin-right: 50px;
+}
+
+.first-box,
+.second-box,
+.third-box,
+.four-box{
+    height: 108px;
+}
+
+.first-box{
+    border-color: #6a3e98;
+}
+
+.second-box{
+    border-color: #f29718;
+}
+
+.third-box{
+    border-color: #3dcbbe;
+}
+.four-box{
+    border-color: #c83795;
+}
+
+
+/*  
+        Drop Down Content
+*/
+
+
+.table-div{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    transition: 0.5s;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.table-header{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.colspan-1-h{
+    width: 150px;
+    text-align:center;
+}
+
+.colspan-3-h{
+    width: 600px;
+}
+
+.colspan-2-h{
+    width: 120px;
+}
+
+.capstone-colspan-2{
+    width: 300px;
+}
+
+.table-cell{
+   
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 5px;
+    cursor: pointer;
+    
+    
+    
+}
+
+
+.table-div:hover{
+    background-color: #cecbcb;
+    border-radius: 5px;
+}
+
+.blue-nav-above-empty-box:active{
+    background-color: #002968;
+}
+
+.drop-downs{
+    width: 100vw;
+    
+    background-color: rgb(245, 247, 250);
+    
+}
+
+.table-content{
+    width: 80%;
+    margin: 5px auto;
+    background-color: #3daef080;
+    
+    
+}
+
+.slide-down{
+    max-height: 200px;
+    padding: 20px 40px;
+}
+
+.slide-up{
+    max-height: 0px;
+    padding: 0px;
+}
+
+
+.table-content-dropdown{
+    padding: 0px 40px;
+    /*
+    display: none;
+    */
+    border-radius: 5px;
+    max-height: 0px;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.colspan-1{
+    width: 150px;
+    text-align: center;
+}
+
+.colspan-3{
+    width: 600px;
+}
+
+.colspan-2{
+    width: 120px;
+}
+
+.capstone-prerequisite{
+    width: 300px;
+}
+
+.drop-down-for-courses{
+    width: 1400px;
+    margin: 0px auto;
+    background-color: #f3f3f3;
+    
+    margin-bottom: 0px;
+    
+    box-shadow: 10px 0px  30px -10px rgba(0,0,0,0.5);
+    border-left: 5px solid #0090c9;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    overflow-y: hidden;
+    max-height: 0px;
+    
+}
+
+.drop-down-for-courses h4{
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.level-one-required-course, 
+.table{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.level-one-required-course td,
+.table td{
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+
+.table th{
+    text-align: left;
+    height: 50px;
+    font-weight: bold;
+}
+
+.slide-up{
+    max-height: 0px;
+    transition: all 0.5s ease-in-out;
+    overflow-y: hidden;
+    padding: 0px;
+}
+
+.slide-down{
+    max-height: 200px;
+    
+}
+
+.slider{
+    transition: .5s ease-in-out;
+}
+
+
+.table td{
+    border: 1px solid #000;
+}
+
+.dmit-1001{
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.dmit-1001:hover{
+    background-color: #c4c3c3;
+}
+
+
+
+.dmit-1001-dropdown td{
+    width: 100%;
+}
+
+
+/*
+    Information ABout the program
+*/
+
+.program-information-about-game-programming{
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(118, 204, 238, 0.4), rgba(36, 140, 226, 0.4)), url(../img/starburst-bg.jpg);
+    border-top: 2px solid #002d74;
+    border-bottom: 2px solid #002d74;
+    margin-top: 30px;
+    
+}
+
+.container-for-program-information-about-game-programming{
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.info-for-game-programming{
+    padding: 10px  10px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+
+  /*********************************************/
+ /*      Style for main content OVERVIEW     */
+/*******************************************/
+
+.main-content-dropdowns{
+    width: 100vw;
+    background-color:#f5f7fa;
+}
+
+.container-for-main-content-dropdowns{
+    width: 1400px;
+    margin: 0 auto;
+    
+    margin-top: 15px;
+}
+
+.main-content-overview{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 4000px;
+    
+    overflow-y: hidden;
+}
+
+.image-in-overview{
+    background-image: url(../img/coding-computer-data-depth-of-field-577585.jpg);
+    background-size: cover;
+    width: 48%;
+    height: 400px;
+    margin: 35px;
+    margin-left: 0px;
+    box-shadow: 10px 0px 20px rgba(0,0,0,0.4);
+    border: 4px solid #3f3f3f;
+}
+
+.text-main-content-overview p{
+    width: 650px;
+    margin: 35px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.share-section-overview{
+    color: #7a7a7a;
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid #d7d7d7;
+    margin-left: 50px;
+    width: 1300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 20px;
+    user-select: none;
+}
+
+.share-section-overview span{
+    margin-left: 20px;
+}
+
+.share-section-overview span:hover{
+    color: #bbbbbb;
+    cursor: pointer;
+}
+
+.main-content-what-you-will-learn{
+    width: 1037px;
+    padding: 0px 50px;
+    padding-left:0px;
+    line-height: 2;
+    font-size: 18px;
+    overflow-y: hidden;
+    
+}
+
+.main-content-what-you-will-learn p{
+    margin-bottom: 40px;
+}
+
+.main-content-what-you-will-learn h3{
+    font-size: 24px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.main-content-what-you-will-learn h2{
+    font-size: 32px;
+    font-family: industry, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+}
+
+.display-none{
+    display: none;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.display-block{
+    display: block;
+}
+
+/*
+
+    The Overview Tabs main content styles
+*/
+
+.main-main-content{
+    background-color: rgb(245, 247, 250);
+    font-family: 'Catamaran', sans-serif;
+}
+
+.main-content-tabs{
+    width: 100vw;
+    background-color: rgb(245, 247, 250);
+    padding-top: 30px;
+    user-select: none;
+}
+
+.container-for-main-content-tabs{
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.overview-tab,
+.what-you-will-learn-tab,
+.career-opportunities-tab,
+.certification-tab,
+.contacts-tab{
+    background-color: #fff;
+    border-radius: 3px 3px 0px 0px;
+    margin-right: 4px;
+    border: 1px solid rgb(221, 221, 221);
+    border-bottom: 0px;
+    padding: 8px 16px;
+    cursor: pointer;
+    color: #05090e;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.overview-tab:hover,
+.what-you-will-learn-tab:hover,
+.career-opportunities-tab:hover,
+.certification-tab:hover,
+.contacts-tab:hover{
+    background-color: #a3a3a3;
+}
+
+
+
+
+/*  Career Opportunities Style  */
+
+.main-content-career-opportunities{
+    font-family: 'Catamaran', sans-serif;
+}
+
+.two-boxes-career-opportunites{
+    display: flex;
+}
+
+.box-left-career-op{
+    border:2px solid #91c432;
+    background-color: rgb(211, 231, 173);
+    width: 433px;
+    padding: 15px;
+    margin-right: 35px;
+    font-size: 24px;
+    line-height: 24px;
+    color:rgb(5, 9, 14);
+    
+}
+
+.box-left-career-op h3{
+    margin: 0;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+.box-left-career-op p{
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.box-left-career-op ul li{
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.box-right-career-op{
+    width: 916px;
+    font-weight: 100;
+}
+
+.box-right-career-op h3{
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.box-right-career-op p{
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.box-right-career-op span{
+    color: #00a0df;
+    text-decoration: underline;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.overview-things-like-that-active{
+    background-color: rgb(0, 160, 223);
+    color: #fff;
+    margin-bottom: -1px;
+    margin-top: -1px;
+}
+
+
+/*      Certification Styles    */
+
+.main-content-certification ul li{
+    list-style-type: disc;
+    text-decoration: underline;
+    margin-left: 20px;
+    color: #00a0df;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.main-content-certification h2{
+    font-size: 32px;
+    font-family: industry, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.main-content-certification h3{
+    font-weight: bold;
+}
+
+.main-content-certification p{
+    font-size: 18px;
+    font-family: 'Catamaran', sans-serif;
+    margin-bottom: 20px;
+    width: 1037px;
+}
+
+
+
+.two-images-in-certification{
+    display: flex;
+}
+
+.left-image-certification{
+    width: 48%;
+    height: 400px;
+    margin-right: 4%;
+    background-image: url(../img/BTech_JesseTutt.jpg);
+}
+
+.right-image-certification{
+    width: 48%;
+    height: 400px;
+    background-image: url(../img/BAISTserverwires-2018-10-1000x594.jpg);
+}
+
+/*      Contacts Styles     */
+
+.main-content-contacts h2{
+    font-family: industry, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.main-content-contacts p{
+    line-height: 24px;
+    color:#05090e;
+    font-size: 18px;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+.main-content-contacts ul li{
+    list-style-type: disc;
+    margin-left: 20px;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.main-content-contacts ul{
+    margin-bottom: 24px;
+}
+
+.main-content-contacts span{
+    text-decoration: underline;
+    color: #0090c9;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*
+
+    Apply Now
+
+*/
+
+.apply-now-container{
+    width: 100vw;
+    background-color: #f5f7fa;
+    border-top: 1px solid #dfe2e8;
+    border-bottom: 1px solid #dfe2e8;
+}
+
+.info-container-apply-now{
+    width: 1400px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.button-container-apply-now{
+    justify-content: center;
+    display: flex;
+}
+
+.button-container-apply-now p{
+    padding: 10px 15px;
+    
+    
+}
+
+.text-container-apply-now h2{
+    font-size: 32px;
+    font-weight: 400px;
+    
+    
+}
+
+.text-container-apply-now p{
+    font-size: 15px;
+    font-weight: 400px;
+    margin-bottom: 24px;
+}
+
+.apply-now-btn{
+    margin: 0px 20px 10px 0px;
+    background-color: #94c931;
+    border: solid 2px #83b02d;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+
+}
+.apply-now-btn:hover{
+    background-color: #83b02d;
+}
+
+.how-to-apply{
+    border: solid 2px #1aaae2;
+    color: #1aaae2;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.how-to-apply:hover{
+    text-decoration: underline;
+}
+
+/*
+    RELATED PROGRAMS
+
+*/
+
+.related-topics-container{
+    width: 100vw;
+    padding:50px 0px;
+}
+
+.related-topics-container h3{
+    width: 1400px;
+    margin: 0px auto;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.each-boxes-for-related-topics-title{
+    
+    height:270px;
+    margin: 0 auto;
+    width: 1400px;
+    
+}
+
+.each-boxes-for-related-topics{
+    display: flex;
+    width: 1400px;
+    margin: 0px auto;
+    
+}
+
+.each-boxes-for-related-topics p{
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #1aaae2;
+    text-decoration: underline;
+}
+
+.photo-related{
+    width: 237px;
+    height: 148px;
+    margin-bottom: 10px;
+}
+
+.related-one,
+.related-two,
+.related-three,
+.related-four,
+.related-five{
+    width: 237px;
+    margin-right: 49px;
+    
+}
+
+
+
+/*
+
+TOP FOOTER
+*/
+
+.top-footer{
+    background-color: #002d74;
+    width: 100vw;
+    color: #fff;
+    height: 67px;
+    
+}
+
+.list-menu-top-footer{
+    float: left;
+}
+
+.button-on-right-container-top-footer{
+    float: right;
+}
+
+.container-for-top-footer{
+    width: 1400px;
+    margin: 0 auto;
+    
+    
+}
+
+.container-for-top-footer ul{
+    
+    display:flex;
+    
+}
+
+
+.container-for-top-footer ul li{
+    margin-right: 40px;
+    
+}
+
+
+
+.list-menu-top-footer{
+    padding: 22px 0px;
+}
+
+.btn-top-footer{
+    background-color: #37b7ab;
+    justify-content: end;
+    padding: 0px;
+    padding: 10px 15px;
+    margin-top: 12px;
+    margin-bottom:12px;
+    border-radius:3px;
+    cursor: pointer;
+
+    
+}
+
+.btn-top-footer:hover{
+    background-color: #45e2d2;
+}
+/*
+
+Big blue middle footer
+
+*/
+
+.big-blue-footer{
+    width: 100vw;
+    background-color: #002968;
+    
+}
+
+.big-blue-footer p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.box-filled-with-info{
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.box-filled-with-info{
+    padding: 40px 0;
+    color: #fff;
+    font-size: 16px;
+    
+}
+
+.third{
+    width: 433.3px;
+    margin-right: 49.969px;
+}
+
+
+.numbers-in-footer{
+    display: flex;
+    
+}
+
+.phone-number{
+    margin-right: 48px;
+}
+
+.left-box-footer p{
+    font-size: 14px;
+}
+
+.view-on-map-button{
+    padding: 10px 15px;
+    background-color: rgb(0, 160, 223);
+    border-radius: 3px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.view-on-map-button:hover{
+    background-color: rgb(0, 173, 241);
+}
+
+.middle-box-footer p{
+    font-size: 14px;
+}
+
+.highlighted{
+    color: #00a0df;
+    font-size: 15px;
+    cursor:pointer
+}
+
+.highlighted:hover{
+    color: #00aef3;
+}
+
+.icons-footer p{
+    margin-left: 25px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.icons-footer p:hover{
+    opacity: 1;
+}
+
+
+/*
+
+Bottom area footer
+
+
+*/
+
+.very-bottom-footer{
+    background-color: #002968;
+    padding: 15px 0;
+    border-top: 1px solid #274a7e;
+    
+}
+
+.very-bottom-footer-text{
+    width: 1400px;
+    margin: 0 auto;
+    
+
+}
+
+.very-bottom-footer-text ul{
+    display: block;
+    list-style-type: disc;
+    display: flex;
+}
+
+.very-bottom-footer-text ul li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+
+
+.very-bottom-footer-text ul li a{
+    font-size: 14px;
+    
+    text-decoration: none;
+    color: #cdd0d8;
+    font-weight: normal;
+
+}
+
+.very-bottom-footer-text ul li a:hover{
+    color: #b2b5be;
+}
+
+.icons-footer{
+    display: flex;
+    
+}
+
+.context-inside-this{
+    float: right;
+}
+
+.context-inside-this p img{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.context-inside-this p img:hover{
+    opacity: 1;
+}
