@@ -55,6 +55,7 @@ function show_hide_courses(){
     else{
         wholeCoursesDropdown.classList.remove("display-block");
         wholeCoursesDropdown.classList.add("display-none");
+        coursesBtn.classList.remove("four-tabs-active-1");
         
     }
 }
@@ -107,7 +108,7 @@ function show_hide_tuition_and_fees(){
     else{
         tuitioAndFeesDropdown.classList.remove("display-block");
         tuitioAndFeesDropdown.classList.add("display-none");
-        
+        tuitionAndFeedBtn.classList.remove("four-tabs-active-2");
     }
 }
 
@@ -158,7 +159,7 @@ function show_hide_how_to_apply(){
     else{
         howToApplyDropdown.classList.remove("display-block");
         howToApplyDropdown.classList.add("display-none");
-        
+        howToApplyBtn.classList.remove("four-tabs-active-3");
     }
 }
 
@@ -210,7 +211,7 @@ function show_hide_scholarship(){
     else{
         scholarshipDropdown.classList.remove("display-block");
         scholarshipDropdown.classList.add("display-none");
-        
+        scholarshipBtn.classList.remove("four-tabs-active-4");
     }
 }
 
