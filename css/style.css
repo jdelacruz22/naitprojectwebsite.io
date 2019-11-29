@@ -739,9 +739,6 @@ body{
     border-radius: 5px;
 }
 
-.blue-nav-above-empty-box:active{
-    background-color: #002968;
-}
 
 .drop-downs{
     
@@ -934,8 +931,17 @@ body{
 
 .info-for-game-programming{
     padding: 10px  10px;
-    margin-right: 10px;
+    margin-right: auto;
     color: #fff;
+}
+
+.info-for-game-programming span{
+    font-weight: bold;
+    
+}
+
+.info-for-game-programming p{
+    font-size: 18px;
 }
 
 
@@ -964,7 +970,7 @@ body{
 }
 
 .image-in-overview{
-    background-image: url(../img/coding-computer-data-depth-of-field-577585.jpg);
+    background-image: url(../img/new-img-overiew.jpg);
     background-size: cover;
     width: 48%;
     height: 400px;
@@ -1732,7 +1738,7 @@ Bottom area footer
 }
 
 .slide-down{
-    max-height: 400px;
+    max-height: 900px;
     transition: 0.5s;
 }
 
@@ -1774,10 +1780,18 @@ Bottom area footer
     color: #fff;
 }
 
+.four-tabs-active-1:hover{
+    background-color: #56337c;
+}
+
 .four-tabs-active-2{
     border: 0px;
     background-color: #f29718;
     color: #fff;
+}
+
+.four-tabs-active-2:hover{
+    background-color:  #c57c15;
 }
 
 .four-tabs-active-3{
@@ -1786,8 +1800,16 @@ Bottom area footer
     color: #fff;
 }
 
+.four-tabs-active-3:hover{
+    background-color: #30a79d;
+}
+
 .four-tabs-active-4{
     border: 0px;
     background-color: #c83795;
     color: #fff;
+}
+
+.four-tabs-active-4:hover{
+    background-color: #a12e79;
 }
