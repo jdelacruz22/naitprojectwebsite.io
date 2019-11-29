@@ -104,17 +104,32 @@
         </div>
     </div>
 
+    
     <div class="blue-courses-bar">
         <div class="container-for-blue-bar">
-            <div class="courses-blue blue-nav-above-empty-box" onclick = "show_hide()">Courses</div>
-            <div class="random-bow-change blue-nav-above-empty-box">Random</div>
-            <div class="random-bow-change blue-nav-above-empty-box">Random</div>
-            <div class="random-bow-change last-box-blue-bar">Random</div>
+            <div class="courses-blue blue-nav-above-empty-box" onclick = "show_hide_courses()">
+                <h2>Courses</h2>
+                <p>View courses for this program</p>
+            </div>
+            <div class="random-bow-change blue-nav-above-empty-box tuition-and-fees-tab" onclick="show_hide_tuition_and_fees()">
+                <h2>Tuition & Fees</h2>
+                <p>Get an estimate on cost to attend</p>
+            </div>
+            <div class="random-bow-change blue-nav-above-empty-box how-to-apply-tab" onclick="show_hide_how_to_apply()">
+                <h2>How To Apply</h2>
+                <p>Requirements, dates & deadlines</p>
+            </div>
+            <div class="random-bow-change last-box-blue-bar blue-nav-above-empty-box scholarship-tab" onclick="show_hide_scholarship()">
+                <h2>Scholarships and Awards</h2>
+                <p>Funding for students in this program</p>
+            </div>
+
         </div>
     </div>
 
 
-    <div id="dropdown" class="drop-downs">
+<!-- ALl DROPDOWN FOR FOUR TABS-->
+    <div class="main-courses-dropdown-div display-none">
         <div class="drop-down-for-courses" id = "dropdownForCourses">
             <h4>Term 1 - Required Courses</h4>
 
@@ -477,15 +492,194 @@
             <div class="table-content">
                 <div class="table-cell table-content-dropdown" id = "tableDropDown_26">The course provides an introduction to the subject of Business Intelligence. Students will receive an introduction to various types of and uses of data and databases. Students will examine basic techniques to compile and integrate data into business intelligence applications. Business Intelligence reporting and analysis will be examined. Students will design solutions and implement the design using industry standard Business Intelligence tools.</div>
             </div>
+    
+    
+    
+                
+    
+    
+    
+            </div>
+        </div>
 
-
-
+    <div class="main-content-tuition-and-fees display-none display-none">
+        <div class="container-for-main-content-tuition-and-fees">
+            <div class="container-for-three-div">
+                <div class="three-div">
+                    
+                    <ul>
+                        <li class="main-list-header">Tuition</li>
+                        <li><span>Cost Per 3 Credits:</span> $540</li>
+                        <li><span>Cost Per 4.5 Credits:</span> $810</li>
+                        <li><span>Tuition Cap:</span> $1,940</li>
+                        <li class ="list-header">Tuition for International Students</li>
+                        <li><span>Cost Per Credit:</span> $747</li>
+                        <li><span>Tuition Cap:</span> $8,051</li>
+                    </ul>
+                </div>
+                <div class="three-div">
+                    <ul>
+                        <li class="main-list-header">Mandatory Fees</li>
+                        <li><span>NAITSA:</span> $129</li>
+                        <li><span>U-Pass:</span> $175</li>
+                        <li><span>Health & Dental:</span> $128</li>
+                        <li><span>Rec. & Athletics:</span> $70</li>
+                        <li class="list-button">Pay Your Tuition & Fees</li>
+                        <li class="list-desc">How much will first year cost?</li>
             
-
-
-
+                    </ul>    
+                </div>
+                
+                <div class="three-div">
+                    <ul>
+                        <li class="main-list-header">Books, Supplies & Program Fees (est.)</li>
+                        <li><span>Level 1 Term 1:</span> $625</li>
+                        <li><span>Level 1 Term 2:</span> $625</li>
+                        <li><span>Level 2 Term 1:</span> $625</li>
+                        <li><span>Level 2 Term 2:</span> $625</li>
+                    </ul>
+                </div>
+            </div>
+            <p>The tuition and fee amounts are valid for the current academic year and are subject to change for subsequent intakes. For financial planning purposes, please use these totals as an approximate estimate of your costs. The approved tuition and fee information for your intake will be available in April.</p>
+            
         </div>
     </div>
+
+    <div class="main-content-how-to-apply display-none">
+        <div class="container-for-main-content-how-to-apply">
+            <div class="left-box-main-content-how-to-apply">
+                <h2>Dates & Deadlines</h2>
+                <p>We recommend submitting your program application <span>at least 90 days</span> before the application deadline.</p>
+                <ul>
+                    <li><span>Application Start Date: </span>Oct 1, 2019</li>
+                    <li><span>Application Deadline: </span>Sep 08, 2020</li>
+                    <li><span>Term Start Date: </span>Sep 08, 2020</li>
+                </ul>
+                <h2>Program Availability Status:  </h2>
+                <p class="last-updated-thing-how-to-apply">Last Updated: Nov 19, 2019</p>
+                <div class="applicant-box-how-to-apply">
+                    <div class="applicant-box-hta">
+                        <p class="applicant-title">Domestic Applicants:</p>
+                        <p class="open-applicant">open</p>
+                    </div>
+                    <div class="applicant-box-hta">
+                        <p class="applicant-title">International Applicants:</p>
+                        <p class="open-applicant">open</p>
+                    </div>
+                </div>
+                <h2>Entrance Requirement</h2>
+                <ul>            
+                    <li>English 20-1 or 20-2</li>
+                    <li>Math 20-1 or 20-2</li>
+                    <li>Proof of English Language Proficiency</li>
+                </ul>
+                <p>Or</p>
+                <ul>
+                    <li>Successful completion of the following 3 courses through NAIT Open Studies with an overall minimum GPA of 2.0:</li>
+                    <ul class="numbered-list">
+                        <li>DMIT1001 - Communications for Digital Media and IT</li>
+                        <li>COMP1017 - Web Design Fundamentals I</li>
+                        <li>ORGB1500 - Organizational Behaviour for Digital Media and IT</li>                       
+                    </ul>
+                    <li>Proof of <span class = "blue-highlight">English Language Proficiency</span></li>
+                </ul>
+                <p>Note: DMIT will no longer offer daytime seats for Open Studies. Evening courses will be available for Open Studies students.</p>
+                <p>Or</p>
+                <ul>
+                    <li>5 credits of Advanced Level Computer Sciences or Advanced Level Design Studies or Advanced Level Communication Technology courses taken within the Career and Technology Studies program</li>
+                    <li>Proof of <span class="blue-highlight">English Language Proficiency</span></li>
+                </ul>
+                <p>Applicants who, prior to September 2019, completed any three NAIT Digital Media & IT courses successfully with a minimum combined GPA of at least 2.0, may use those courses to satisfy the current admission requirements. <span class="blue-highlight">Proof of English Language Proficiency</span> is still required.</p>
+
+                <h3>Competitive Entrance Requirements:</h3>
+                <p>70% overall average Note: Competitive entrance requirements are determined by the program area and are subject to change without notice.</p>
+            </div>
+            <div class="right-box-main-content-how-to-apply">
+                <div class="top-part-right-box-hta">
+                    <h2>Apply to Program</h2>
+                    <p>Apply to the program with step-by-step instructions on how to complete the application process. Please note, processing time may vary for applicants, so we recommend starting early.</p>
+                    <div class="two-button-right-box-hta">
+                        <p class="two-button-apply-hta">Apply Now</p>
+                        <p class=two-button-how-to-hta>How to apply checklist</p>
+                    </div>
+                </div>
+                
+                <div class="bottom-part-right-box-hta">
+                    <h3>Open Studies</h3>
+                    <p>A great option to get started or take a few courses without committing to a full program. <span class="blue-highlight">Learn more</span></p>
+                    <h3>International Student</h3>
+                    <p>This program is open to international applicants. For more detailed information about applying, visit our admissions page. <span class="blue-highlight">Learn more</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content-scholarship display-none">
+        <div class="container-for-main-content-scholarship">
+            <h2>Scholarships & Awards</h2>
+            <p class="null">The following scholarships and/or bursaries are available to you as a student in this program. To access your opportunities, visit the Student Portal.</p>
+            <div class="container-for-scholarship-awards">
+                    <div class="scholarship-awards">
+                        <p class="scholar-price">$1,000.00</p>
+                        <p>Canadian Information Processing Society - Fall </p>   
+                    </div>
+                    <div class="scholarship-awards">
+                        <p class="scholar-price">$1,250.00</p>
+                        <p>City Of Edmonton - Fall</p>
+                    </div>
+                    <div class="scholarship-awards">
+                        <p class="scholar-price">$1,200.00</p>
+                        <p>Computer Systems Technology Academic Achievement Scholarship - Winter</p>
+                    </div>
+                    <div class="scholarship-awards">
+                        <p class="scholar-price">$1,250.00</p>
+                        <p>Hewlett-Packard (Canada) Ltd. - Fall</p>
+                    </div>
+                    <div class="scholarship-awards">
+                        <p class="scholar-price">$1,000.00</p>
+                        <p>LGS Group Inc. - Fall</p>
+                    </div>
+                    <div class="scholarship-awards">
+                        <p class="scholar-price">$1,000.00</p>
+                        <p>LGS Group Inc. - Fall</p>
+                    </div>
+                    <div class="scholarship-awards">
+                        <p class="scholar-price">$1,000.00</p>
+                        <p>NorQuest College - Dave Hoy Achievement Award</p>
+                    </div>
+                    <div class="scholarship-awards">
+                        <p class="scholar-price">$1,000.00</p>
+                        <p>Wendell Stanton Memorial Bursary</p>
+                    </div>
+                    <div class="scholarship-awards">
+                        <p class="scholar-price">$500.00</p>
+                        <p>CONTAVA Inc. Scholarship - Fall</p>
+                    </div>
+                    <div class="scholarship-awards">
+                        <p class="scholar-price">$1,250.00</p>
+                        <p>George Ward Digital Media and IT Bursary</p>
+                    </div>
+                    <div class="scholarship-awards">
+                        <p class="scholar-price">$2,500.00</p>
+                        <p>Women in Technology & Trades IT Bursary</p>
+                    </div>
+                    <div class="scholarship-awards">
+                        <p class="scholar-price">$2,000.00</p>
+                        <p>Bob and Wendy Hiew Bursary</p>
+                    </div>
+                    <div class="scholarship-awards">
+                        <p class="scholar-price">$1,000.0</p>
+                        <p>Eva Mah Borsato Scholarship</p>
+                    </div>
+            </div>
+            
+            
+                
+                
+            
+        </div>
+    </div>
+    
 
     <div class="main-main-content">
 
@@ -493,9 +687,9 @@
             <div class="container-for-main-content-tabs">
                 <div id="overviewBtn" class="overview-tab overview-things-like-that-active" onclick="overviewBtnClicked()">Overview</div>
                 <div id="whatYouWillLearnBtn" class="what-you-will-learn-tab" onclick="whatYouWillLearnBtnClicked()">What You Will Learn</div>
-                <div class="career-opportunities-tab" onclick="careerOpportunitiesBtnClicked()">Career Opportunities</div>
-                <div class="certification-tab" onclick="certificationBtnClicked()">Certification</div>
-                <div class="contacts-tab" onclick="contactsBtnClicked()">Contacts</div>
+                <div id="careerOpportunitiesBtn"  class="career-opportunities-tab" onclick="careerOpportunitiesBtnClicked()">Career Opportunities</div>
+                <div id="certificationBtn" class="certification-tab" onclick="certificationBtnClicked()">Certification</div>
+                <div id="contactsBtn" class="contacts-tab" onclick="contactsBtnClicked()">Contacts</div>
             </div>
         </div>
     
@@ -506,8 +700,20 @@
                 <div class="main-content-overview display-flex" id="overviewDropDown">
                     <div class="image-in-overview"></div>
                     <div class="text-main-content-overview">
+                        <p>Game programming refers to the use of computer programming languages, such as C programming language, C++, java, to write games on computers, mobile phones or game consoles. The popular game programing language is C++ language, and the game programming interface is DirectX (Direct eXtension) 9.0, OpenGL (Open Graphics Library) and SDL (Simple DirectMedia Layer). The games now paly on mobile phones are divided into Android and IOS platforms, using java and project-c (or swift). Nowadays, some cross-platform programming engines are also popular, such as cocos2d-x, unity 3D.</p>
                         <p>The Digital Media and IT (DMIT) program is multi-disciplinary in its approach. Spanning a range of career opportunities from business analyst to visual designer, this innovative program allows you the ability to meet industry demand while developing skills aligned with your individual talents and inclinations.</p>
                         <p>In the Game Programming area of emphasis, you will learn how to give life to video games. You will create and implement game code and scripts that support environments, characters, vehicles, cameras and special effects and allow them to interact with each other.</p>
+
+                        <div class="bottom-paragraph-overview">
+                            <div class="grad-employent-rate">
+                                <h3>Grad Employment Rate: </h3>
+                                <p>82.0%</p>
+                            </div>
+                            <div class="average-salary">
+                                <h3>Average Salary: </h3>
+                                <p>C$57,512</p>
+                            </div>
+                        </div>
                         
                     </div>
                     
@@ -517,6 +723,15 @@
                     <h2>Hands-on, industry-relevant skills</h2>
                     <p>The courses in this area of emphasis offer a multi-language approach to object-oriented programming (OOP), which is an approach to designing modular, reusable software systems. You'll also learn how multi-language programming functions on various game engines and platforms.</p>
                     <p>You will become familiar with programming languages such as C++, C# and JavaScript, languages that are at the core of game programming. You will then learn how to plan and create small games – on your own as well as with your classmates.</p>
+
+                    <ul class = "wha-you-will-learn-list">
+                        <li>Programming languages:</li> 
+                        <ul class="inside-list-wywl">
+                            <li>You will become familiar with programming languages such as C++, C# and JavaScript, languages that are at the core of game programming.</li>
+                            <li>You will then learn how to plan and create small games – on your own as well as with your classmates.</li>
+                        </ul>
+                        <li>Strong analytical frame of mind.</li>
+                    </ul>
     
                     <h3>Elective courses</h3>
                     <p>Because of the flexibility and breadth of the DMIT program, you may choose to take elective courses from other DMIT streams in addition to your core stream courses. The courses listed on this page are provided as recommended courses that will help you succeed in your chosen DMIT area of emphasis. </p>
@@ -543,8 +758,201 @@
                             <p>As a result of DMIT's close connection with industry, various co-op opportunities exist for students in the DMIT program. Many companies offer our students paid co-op positions that provide direct experience in specific areas of study. Co-op is also seen as a staffing strategy for many organizations.</p>
                             <p>Contact the program at <span>dmit@nait.ca</span> or 780.378.6140 for more information.</p>
                             <p>Co-op opportunities are available for 4-month terms.</p>
-                            <p>Students must have a minimum of 28 credits and a GPA of at least 2.7 to apply for a co-op position. These co-op opportunities benefit not only DMIT students but also the employers.</p>
+                            <p>Students must have a minimum of 28 credits and a GPA of at least 3.7 to apply for a co-op position. These co-op opportunities benefit not only DMIT students but also the employers.</p>
                         </div>
+                    </div>
+                    
+                    <div class="bottom-box-career-opportunities">
+                        <div class="left-bottom-box-career-opportunities">
+                            <h2>Game Companies</h2>
+                            <p>Popular companies in Canada that hire game programmers</p>
+                            <div class="game-companies" onclick="gC_1()">
+                                <p>Hothead</p>
+                                
+                                
+                            </div>
+                            <div class="hidden-game-companies gc-1 slide-up">
+                                <p>Hothead Games is an independent mobile games studio that creates concepts, develops the games and publishes them. Our success comes from hiring the smartest and talented people so that they can do their magic!</p>
+                                <img src="img/game-company-logo/hot-head-logo.png" alt="HOT HEAD">
+                            </div>
+                            <div class="game-companies" onclick="gC_2()">
+                                <p>Relic Entertainment</p>
+                                
+                                
+                            </div>
+                            <div class="hidden-game-companies gc-2 slide-up">
+                                <p>Relic Entertainment (known as THQ Canada Inc. between 2004 and 2013) is a Canadian video game developer based in Vancouver, founded in 1997. The studio specializes in real-time strategy games and is known for series such as Homeworld, Warhammer 40,000: Dawn of War and Company of Heroes.</p>
+                                <img src="img/game-company-logo/relic-logo.png" alt="RELIC">
+                            </div>
+                            <div class="game-companies too-wide-logo" onclick="gC_3()">
+                                <p>Ubisoft</p>
+                                
+                                
+                            </div>
+                            <div class="hidden-game-companies gc-3 slide-up">
+                                <p>Ubisoft Entertainment is a French computer and videogame developer and publisher with headquarters in Montreuil-sous-Bois, France. It was founded in 1986 by five brothers, of which Yves Guillemot serves as chairman and CEO. The company consists of 26 studios spread across 18 countries.</p>
+                                <img src="img/game-company-logo/ubisoft-logo.png" alt="UBISOFT">
+                            </div>
+                            <div class="game-companies very-wide-logo" onclick="gC_4()">
+                                <p>Big Bubble</p>
+                                
+                                
+                            </div>
+                            <div class="hidden-game-companies gc-4 slide-up">
+                                <p>Big Blue Bubble is a pioneer in the gaming industry and has developed more than 100 titles since it was incorporated in 2004. Having entered the field long before the days of modern consoles and smartphones, they maintain a proven track record of being the first to market with a variety of innovations in technology and game design, including original gameplay mechanics and revolutionary cross-platform game engines. These milestones have cemented Big Blue Bubble as a long-standing industry veteran.</p>
+                                <img src="img/game-company-logo/big-bubble.png" alt="BIG BUBBLE">
+                            </div>
+                            <div class="game-companies very-wide-logo" onclick="gC_5()">
+                                <p>Beenox</p>
+                                
+                                
+                            </div>
+                            <div class="hidden-game-companies gc-5 slide-up">
+                                <p>Today, Beenox employs hundreds of specialists dedicated to developing games across all consoles. Beenox attributes its success to its talented team, which has a strong sense of belonging and several family activities that are organized by the team every year. Those are only a few reasons why the work environment and culture is well-known within the local videogame industry!</p>
+                                <img src="img/game-company-logo/beenox-logo.png" alt="BEENOX">
+                            </div>
+                            <div class="game-companies" onclick="gC_6()">
+                                <p>Bioware</p>
+                                
+                                
+                            </div>
+                            <div class="hidden-game-companies gc-6 slide-up">
+                                <p>Creating Worlds of Adventure, Conflict, and Companionship that Inspire You to Become the Hero of Your Story. BioWare develops high-quality console, PC, and online role-playing games focused on rich stories, unforgettable characters, and vast worlds to discover.</p>
+                                <img src="img/game-company-logo/bioware-logo.jpg" alt="BIO WARE">
+                            </div>
+                            <div class="game-companies" onclick="gC_7()">
+                                <p>The Coalition</p>
+                                
+                                
+                            </div>
+                            <div class="hidden-game-companies gc-7 slide-up">
+                                <p>The Coalition is a growing team of talented, creative, fun-loving professionals who are united in their passion for Gears of War. As a Microsoft first-party studio, we are dedicated to pushing the limits of interactive entertainment and taking Gears to new heights. We believe that if you want to go far, go together.</p>
+                                <img src="img/game-company-logo/the-coalition-logo.png" alt="COALITION">
+                            </div>
+                            <div class="game-companies very-wide-logo" onclick="gC_8()">
+                                <p>Radical Entertainment</p>
+                                
+                                
+                            </div>
+                            <div class="hidden-game-companies gc-8 slide-up">
+                                <p>Radical Entertainment Inc. is a Canadian video game developer based in Vancouver, British Columbia and a subsidiary of Activision.</p>
+                                <img src="img/game-company-logo/radical-logo.png" alt="RADICAL">
+                            </div>
+                            <div class="game-companies" onclick="gC_9()">
+                                <p>Klei Entertainment</p>
+                                
+                                
+                            </div>
+                            <div class="hidden-game-companies gc-9 slide-up">
+                                <p>Klei is an independent video game developer located in Vancouver, British Columbia, Canada. Klei was formed in July 2005 by Jamie Cheng. They are best known for Eets series, Shank series, Mark of the Ninja, Don't Starve, Invisible, Inc. and Oxygen Not Included.</p>
+                                <img src="img/game-company-logo/klei-logo.png" alt="KLEI">
+                            </div>
+                            <div class="game-companies very-wide-logo" onclick="gC_10()">
+                                <p>Hinterland Games</p>
+                                
+                                
+                            </div>
+                            <div class="hidden-game-companies gc-10 slide-up">
+                                <p>Hinterland is an independent game studio headquartered in Vancouver, British Columbia, an international hub for innovation and expertise in game development.</p>
+                                <img src="img/game-company-logo/hinterland-logo.png" alt="HINTERLAND">
+                            </div>
+                        </div>
+
+                        <div class="right-bottom-box-career-opportunities">
+                            <h2>More Careers</h2>
+                            <div class="game-programmer-career-wikepidea  num-1" onclick="click_1()">
+                                
+                                <h3>Game engine programmer</h3>
+                                <div class="hidden-game-programmer-career-wik hidden-1 slide-up">
+                                    <p>Game engine programmers create the base engine of the game, including the simulated physics and graphics disciplines. Increasingly, video games use existing game engines, either commercial, open source or free. They are often customized for a particular game, and these programmers handle these modifications.</p>
+                                </div>
+                            </div>
+                            <div class="game-programmer-career-wikepidea num-2" onclick="click_2()">
+                                <h3>Physics engine programmer</h3>
+                                <div class="hidden-game-programmer-career-wik hidden-2 slide-up">
+                                    <p>A game's physics programmer is dedicated to developing the physics a game will employ.[5] Typically, a game will only simulate a few aspects of real-world physics. For example, a space game may need simulated gravity, but would not have any need for simulating water viscosity.</p>
+                                </div>
+                            </div>
+                            <div class="game-programmer-career-wikepidea num-3" onclick="click_3()">
+                                <h3>Graphics engine programmer</h3>
+                                <div class="hidden-game-programmer-career-wik hidden-3 slide-up">
+                                    <p>Historically, this title usually belonged to a programmer who developed specialized blitter algorithms and clever optimizations for 2D graphics. Today, however, it is almost exclusively applied to programmers who specialize in developing and modifying complex 3D graphic renderers. Some 2D graphics skills have just recently become useful again, though, for developing games for the new generation of cell phones and handheld game consoles.</p>                                   
+                                </div>
+                            </div>
+                            <div class="game-programmer-career-wikepidea num-4" onclick="click_4()">
+                                <h3>Artificial intelligence programmer</h3>
+                                <div class="hidden-game-programmer-career-wik hidden-4 slide-up">
+                                    <p>An AI programmer develops the logic of time to simulate intelligence in enemies and opponents.[6] It has recently evolved into a specialized discipline, as these tasks used to be implemented by programmers who specialized in other areas. An AI programmer may program pathfinding, strategy and enemy tactic systems. This is one of the most challenging aspects of game programming and its sophistication is developing rapidly. Contemporary games dedicate approximately 10 to 20 percent of their programming staff to AI.</p>
+                                </div>
+                            </div>
+                            <div class="game-programmer-career-wikepidea num-5" onclick="click_5()">
+                                <h3>Sound programmer</h3>
+                                <div class="hidden-game-programmer-career-wik hidden-5 slide-up">
+                                    <p>Not always a separate discipline, sound programming has been a mainstay of game programming since the days of Pong. Most games make use of audio, and many have a full musical score. Computer audio games eschew graphics altogether and use sound as their primary feedback mechanism.</p>
+                                </div>
+                            </div>
+                            <div class="game-programmer-career-wikepidea num-6" onclick="click_6()">
+                                <h3>Gameplay programmer</h3>
+                                <div class="hidden-game-programmer-career-wik hidden-6 slide-up">
+                                    <p>Though all programmers add to the content and experience that a game provides, a gameplay programmer focuses more on a game's strategy, implementation of the game's mechanics and logic, and the "feel" of a game. This is usually not a separate discipline, as what this programmer does usually differs from game to game, and they will inevitably be involved with more specialized areas of the game's development such as graphics or sound.</p>
+                                </div>
+                            </div>
+                            <div class="game-programmer-career-wikepidea num-7" onclick="click_7()">
+                                <h3>Scripter</h3>
+                                <div class="hidden-game-programmer-career-wik hidden-7 slide-up">
+                                    <p>In early video games, gameplay programmers would write code to create all the content in the game—if the player was supposed to shoot a particular enemy, and a red key was supposed to appear along with some text on the screen, then this functionality was all written as part of the core program in C or assembly language by a gameplay programmer.</p>
+                                </div>
+                            </div>
+                            <div class="game-programmer-career-wikepidea num-8" onclick="click_8()">
+                                <h3>UI programmer</h3>
+                                <div class="hidden-game-programmer-career-wik hidden-8 slide-up">
+                                    <p>This programmer specializes in programming user interfaces (UIs) for games. Though some games have custom user interfaces, this programmer is more likely to develop a library that can be used across multiple projects. Most UIs look 2D, though contemporary UIs usually use the same 3D technology as the rest of the game so some knowledge of 3D math and systems is helpful for this role. Advanced UI systems may allow scripting and special effects, such as transparency, animation or particle effects for the controls.</p>
+                                </div>
+                            </div>
+                            <div class="game-programmer-career-wikepidea num-9" onclick="click_9()">
+                                <h3>Input programmer</h3>
+                                <div class="hidden-game-programmer-career-wik hidden-9 slide-up">
+                                    <p>Input programming, while usually not a job title, or even a full-time position on a particular game project, is still an important task. This programmer writes the code specifying how input devices such as a keyboard, mouse or joystick affect the game. These routines are typically developed early in production and are continually tweaked during development. Normally, one programmer does not need to dedicate his entire time to developing these systems. A real-time motion-controlled game utilizing devices such as the Wii Remote or Kinect may need a very complex and low latency input system, while the HID requirements of a mouse-driven turn-based strategy game such as Heroes of Might and Magic are significantly simpler to implement.</p>
+                                </div>
+                            </div>
+                            <div class="game-programmer-career-wikepidea num-10" onclick="click_10()">
+                                <h3>Network programmer</h3>
+                                <div class="hidden-game-programmer-career-wik hidden-10 slide-up">
+                                    <p>This programmer writes code that allows players to compete or cooperate, connected via a LAN or the Internet (or in rarer cases, directly connected via modem). Programmers implementing these game features can spend all their time in this one role, which is often considered one of the most technically challenging. Network latency, packet compression, and dropped or interrupted connections are just a few of the concerns one must consider. Although multi-player features can consume the entire production timeline and require the other engine systems to be designed with networking in mind, network systems are often put off until the last few months of development, adding additional difficulties to this role. Some titles have had their online features (often considered lower priority than the core gameplay) cut months away from release due to concerns such as lack of management, design forethought, or scalability. Virtua Fighter 5 for the PS3 is a notable example of this trend.</p>
+                                </div>
+                            </div>
+                            <div class="game-programmer-career-wikepidea num-11" onclick="click_11()">
+                                <h3>Game tools programmer</h3>
+                                <div class="hidden-game-programmer-career-wik hidden-11 slide-up">
+                                    <p>The tools programmer can assist the development of a game by writing custom tools for it. Game development Tools are often contain features such as script compilation, importing or converting art assets, and level editing. While some tools used may be COTS products such as an IDE or a graphics editor, tools programmers create tools with specific functions tailored to a specific game which are not available in commercial products. For example, an adventure game developer might need an editor for branching story dialogs, and a sport game developer could use a proprietary editor to manage players and team stats. These tools are usually not available to the consumers who buy the game.</p>
+                                </div>
+                            </div>
+                            <div class="game-programmer-career-wikepidea num-12" onclick="click_12()">
+                                <h3>Porting programmer</h3>
+                                <div class="hidden-game-programmer-career-wik hidden-12 slide-up">
+                                    <p>Porting a game from one platform to another has always been an important activity for game developers. Some programmers specialize in this activity, converting code from one operating system to work on another. Sometimes, the programmer is responsible for making the application work not for just one operating system, but on a variety of devices, such as mobile phones. Often, however, "porting" can involve re-writing the entire game from scratch as proprietary languages, tools or hardware make converting source code a fruitless endeavour.</p>
+                                </div>
+                            </div>
+                            <div class="game-programmer-career-wikepidea num-13" onclick="click_13()">
+                                <h3>Technology programmer</h3>
+                                <div class="hidden-game-programmer-career-wik hidden-13 slide-up">
+                                    <p>The technology programmer is more likely to be found in larger development studios with specific departments dedicated solely to R&D. Unlike other members of the programming team, the technology programmer usually isn't tied to a specific project or type of development for an extended length of time, and they will typically report directly to a CTO or department head rather than a game producer. As the job title implies, this position is extremely demanding from a technical perspective and requires intimate knowledge of the target platform hardware. Tasks cover a broad range of subjects including the practical implementation of algorithms described in research papers, very low-level assembly optimization and the ability to solve challenging issues pertaining to memory requirements and caching issues during the latter stages of a project. There is considerable amount of cross-over between this position and some of the others, particularly the graphics programmer.</p>
+                                </div>
+                            </div>
+                            <div class="game-programmer-career-wikepidea num-14" onclick="click_14()">
+                                <h3>Generalist</h3>
+                                <div class="hidden-game-programmer-career-wik hidden-14 slide-up">
+                                    <p>In smaller teams, one or more programmers will often be described as 'Generalists' who will take on the various other roles as needed. Generalists are often engaged in the task of tracking down bugs and determining which subsystem expertise is required to fix them.</p>
+                                </div>
+                            </div>
+                            <div class="game-programmer-career-wikepidea num-15" onclick="click_15()">
+                                <h3>Lead game programmer</h3>
+                                <div class="hidden-game-programmer-career-wik hidden-15 slide-up">
+                                    <p>The lead programmer is ultimately in charge of all programming for the game. It is their job to make sure the various submodules of the game are being implemented properly and to keep track of development from a programming standpoint. A person in this role usually transitions from other aspects of game programming to this role after several years of experience. Despite the title, this person usually has less time for writing code than other programmers on the project as they are required to attend meetings and interface with the client or other leads on the game. However, the lead programmer is still expected to program at least some of the time and is also expected to be knowledgeable in most technical areas of the game. There is often considerable common ground in the role of technical director and lead programmer, such that the jobs are often covered by one person.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
 
@@ -556,6 +964,11 @@
                         <li>Digital Alberta</li>
                         <li>The Society of Graphic Designers of Canada</li>
                         <li>The Advertising Club of Edmonton</li>
+                        <li>Bachelors of information technology-game development and entrepreneurship</li>
+                        <li>Masters of science in computing science (University of Alberta)</li>
+                        <li>Bachelor of science (Niagara College)</li>
+                        <li>Bachelor of Engineering in Software Engineering (McMaster University)</li>
+                        <li>Bachelor of technology in computer systems - games development (BCIT)</li>
                     </ul>
 
                     <h3>Oppotunities for further education</h3>
@@ -597,29 +1010,9 @@
             <div class="box"></div>
         </div>
 
-        <!--FOUR COLORED BOXES-->
+     
 
-        <div class="four-color-boxes-container">
-            <div class="outside-container-colored">
-                <div onclick = "show_hide()" id = "coursesDropDown" class="colored-box first-box">
-                    <h4>Courses</h4>
-                    <p>View courses for this program</p>
-                
-                </div>  
-                <div class="colored-box second-box">
-                    <h4>Tuition & Fees</h4>
-                    <p>Get an estimate on cost to attend</p>
-                </div>
-                <div class="colored-box third-box">
-                    <h4>How to Apply</h4>
-                    <p>Requirements, dates & deadlines</p>
-                </div>
-                <div class="colored-box four-box">
-                    <h4>Scholarships & Awards</h4>
-                    <p>Funding for students in this program</p>
-                </div>
-            </div>
-        </div>
+       
 
     
         <!--APLLY NOW-->
