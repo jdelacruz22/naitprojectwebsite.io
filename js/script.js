@@ -28,9 +28,9 @@ function show_hide_courses(){
 
 
 
-    if(wholeCoursesDropdown.classList.contains("display-none")){
-        wholeCoursesDropdown.classList.remove("display-none");
-        wholeCoursesDropdown.classList.add("display-block");
+    if(wholeCoursesDropdown.classList.contains("slide-up")){
+        wholeCoursesDropdown.classList.remove("slide-up");
+        wholeCoursesDropdown.classList.add("slide-down");
 
         //hide the rest of the tabs
         tuitioAndFeesDropdown.classList.remove("display-block");
