@@ -497,6 +497,10 @@ body{
 }
 /*  right box how to apply    */
 
+.two-images-in-certification{
+    display: flex;
+    
+}
 .right-box-main-content-how-to-apply{
     font-size: 18px;
     font-family: 'Catamaran', sans-serif;
@@ -508,6 +512,8 @@ body{
     cursor: pointer;
 
 }
+
+
 
 .two-button-apply-hta:hover,
 .two-button-how-to-hta:hover{
@@ -999,10 +1005,11 @@ body{
 
 .share-section-overview{
     color: #7a7a7a;
+    margin: 0 auto;
     margin-top: 50px;
     padding-top: 30px;
     border-top: 1px solid #d7d7d7;
-    margin-left: 50px;
+    
     width: 1300px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 20px;
@@ -1195,8 +1202,9 @@ body{
 }
 
 .left-bottom-box-career-opportunities{
-    width: 500px;
-    
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .left-bottom-box-career-opportunities p{
@@ -1215,9 +1223,11 @@ body{
 .hidden-game-companies{
     
     background-color: #d1d0d0;
-    width: 500px;
+    width: 900px;
     overflow-y:hidden;
     border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -1245,7 +1255,7 @@ body{
 
 .hidden-game-companies img{
     width: 150px;
-    margin: 0 175px;
+    margin: 0 375px;
     border-radius: 5px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -1292,13 +1302,22 @@ body{
     overflow-y: hidden;
     font-size: 18px;
     padding: 0 15px;
+    background-color: #dfdfdf;
+    border-radius: 4px;
 }
 
 .game-programmer-career-wikepidea h3{
     font-size: 18px;
-    font-weight: bold;
+    
     border-bottom: 1px solid #e2e2e2;
-    padding: 10px 15px;
+    padding: 10px 4px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.game-programmer-career-wikepidea h3:hover{
+    background-color: #d1cfcf;
+    
 }
 
 
@@ -1340,10 +1359,52 @@ body{
     width: 1037px;
 }
 
+.main-content-certification{
+    width: 1400px;
+    margin: 0 auto;
+}
 
 
-.two-images-in-certification{
-    display: flex;
+.caption-cert{
+    width: 652px;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    
+}
+
+.caption-cert h2{
+    background-color: #00a0df;
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+    padding: 8px 10px;
+}
+
+.caption-cert p{
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.7);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.caption-cert span{
+    color: #00a0df;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.caption-cert span:hover{
+    color: #008bc2;
+}
+
+.b-tech h2{
+    width: 60%;
 }
 
 .left-image-certification{
@@ -1351,15 +1412,24 @@ body{
     height: 400px;
     margin-right: 4%;
     background-image: url(../img/BTech_JesseTutt.jpg);
+    background-size: cover;
+    position: relative;
 }
 
 .right-image-certification{
     width: 48%;
     height: 400px;
     background-image: url(../img/BAISTserverwires-2018-10-1000x594.jpg);
+    background-size: cover;
+    position: relative;
 }
 
 /*      Contacts Styles     */
+
+.main-content-contacts{
+    width: 1400px;
+    margin: 0 auto;
+}
 
 .main-content-contacts h2{
     font-family: industry, sans-serif;
@@ -1819,4 +1889,8 @@ Bottom area footer
 
 .four-tabs-active-4:hover{
     background-color: #a12e79;
+}
+
+.div-that-is-display-block{
+    display: block;
 }
