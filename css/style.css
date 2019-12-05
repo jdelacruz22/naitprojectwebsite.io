@@ -877,6 +877,10 @@ body{
 .main-courses-dropdown-div{
     overflow-y: hidden;
 }
+
+.salary-image img{
+    padding: 50px;
+}
 /*  container for main courses dropdown div */
 
 .container-for-main-courses-dropdown-div{
