@@ -879,7 +879,9 @@ body{
 }
 
 .salary-image img{
-    padding: 50px;
+    width: 400px;
+    height: 250px;
+    margin: 40px 75px 0px 75px;
 }
 /*  container for main courses dropdown div */
 
